@@ -1,0 +1,1220 @@
+﻿Log file open, 07/29/18 10:36:55
+LogInit:Display: Running engine for game: Pyromania
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(369245679) SRandInit(369245679).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.121752
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.29-09.36.56:165][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.29-09.36.56:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.29-09.36.56:236][  0]LogInit: Computer: DESKTOP-P0UCGMH
+[2018.07.29-09.36.56:236][  0]LogInit: User: ethan
+[2018.07.29-09.36.56:236][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.07.29-09.36.56:236][  0]LogInit: High frequency timer resolution =3.515629 MHz
+[2018.07.29-09.36.56:236][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.07.29-09.36.56:236][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.29-09.36.56:236][  0]LogMemory: Process Physical Memory: 273.89 MB used, 273.89 MB peak
+[2018.07.29-09.36.56:236][  0]LogMemory: Process Virtual Memory: 268.23 MB used, 268.23 MB peak
+[2018.07.29-09.36.56:236][  0]LogMemory: Physical Memory: 8368.41 MB used,  7967.87 MB free, 16336.28 MB total
+[2018.07.29-09.36.56:236][  0]LogMemory: Virtual Memory: 4783.40 MB used,  7967.87 MB free, 134217728.00 MB total
+[2018.07.29-09.36.56:310][  0]LogInit: Using OS detected language (en-US).
+[2018.07.29-09.36.56:310][  0]LogInit: Using OS detected locale (en-GB).
+[2018.07.29-09.36.56:313][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.29-09.36.57:315][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.29-09.36.57:341][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2018.07.29-09.36.57:341][  0]LogD3D11RHI:       3052/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.07.29-09.36.57:343][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.29-09.36.57:343][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.29-09.36.57:343][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.29-09.36.57:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.29-09.36.57:351][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2018.07.29-09.36.57:351][  0]LogWindows: EnumDisplayDevices:
+[2018.07.29-09.36.57:351][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2018.07.29-09.36.57:351][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:351][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    8. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    9. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:352][  0]LogWindows:    10. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows:    11. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows:    12. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows:    13. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows:    14. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows:    15. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.07.29-09.36.57:353][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.29-09.36.57:353][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2018.07.29-09.36.57:353][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.29-09.36.57:353][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.29-09.36.57:353][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.29-09.36.57:396][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.29-09.36.57:407][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.07.29-09.36.57:408][  0]LogShaderCompilers: Guid format shader working directory is 24 characters bigger than the processId version (I:/Pyromania/Pyromania/Intermediate/Shaders/WorkingDirectory/8152/).
+[2018.07.29-09.36.57:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ethan/AppData/Local/Temp/UnrealShaderWorkingDir/ADA9656B45365AC4E83D7388033DB7B1/'.
+[2018.07.29-09.36.57:408][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.07.29-09.36.58:418][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.29-09.36.58:480][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.07.29-09.36.58:544][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.29-09.36.58:604][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.07.29-09.36.58:663][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.07.29-09.36.58:723][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.29-09.36.58:782][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.29-09.36.58:842][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.29-09.36.58:898][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.07.29-09.36.58:956][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.07.29-09.36.59:014][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.29-09.36.59:071][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.29-09.36.59:129][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.29-09.36.59:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.29-09.36.59:243][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.29-09.36.59:359][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.29-09.36.59:359][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.29-09.36.59:404][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.07.29-09.36.59:511][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.07.29-09.36.59:545][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.07.29-09.36.59:603][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.29-09.36.59:661][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.29-09.36.59:718][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.29-09.36.59:776][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.07.29-09.36.59:776][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.07.29-09.37.00:375][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Pyromania/Pyromania/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Pyromania/Pyromania/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.29-09.37.00:469][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.29-09.37.00:487][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.29-09.37.00:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ethan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.29-09.37.00:509][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.29-09.37.00:509][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.29-09.37.00:510][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.29-09.37.00:510][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.29-09.37.00:852][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.29-09.37.00:946][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.07.29-09.37.01:105][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.29-09.37.01:156][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.29-09.37.01:215][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.29-09.37.01:215][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.07.29-09.37.01:215][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.07.29-09.37.01:786][  0]LogNetVersion: Pyromania , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1639439231)
+[2018.07.29-09.37.01:851][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.07.29-09.37.02:017][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.135866 seconds
+[2018.07.29-09.37.02:024][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.07.29-09.37.02:024][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.07.29-09.37.02:024][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.29-09.37.02:101][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.29-09.37.04:712][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.29-09.37.04:760][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.29-09.37.05:398][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.29-09.37.05:890][  0]SourceControl: Info Source control is disabled
+[2018.07.29-09.37.05:891][  0]SourceControl: Info Source control is disabled
+[2018.07.29-09.37.05:952][  0]SourceControl: Info Source control is disabled
+[2018.07.29-09.37.06:011][  0]SourceControl: Info Source control is disabled
+[2018.07.29-09.37.06:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.29-09.37.07:615][  0]LogEngine: Initializing Engine...
+[2018.07.29-09.37.07:639][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.07.29-09.37.07:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.29-09.37.07:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.29-09.37.08:018][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.29-09.37.08:029][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.29-09.37.08:051][  0]LogInit: FAudioDevice initialized.
+[2018.07.29-09.37.08:109][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.07.29-09.37.08:128][  0]LogInit: Texture streaming: Enabled
+[2018.07.29-09.37.08:237][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.29-09.37.08:485][  0]LogInit: Transaction tracking system initialized
+[2018.07.29-09.37.08:848][  0]BlueprintLog: New page: Editor Load
+[2018.07.29-09.37.09:927][  0]LocalizationService: Info Localization service is disabled
+[2018.07.29-09.37.10:711][  0]LogConsoleResponse:Display: 
+[2018.07.29-09.37.10:907][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.29-09.37.10:907][  0]LogCook:Display: Mobile HDR setting 1
+[2018.07.29-09.37.11:300][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/' took 0.02s
+[2018.07.29-09.37.12:148][  0]SourceControl: Info Source control is disabled
+[2018.07.29-09.37.12:148][  0]Cmd: MAP LOAD FILE="I:/Pyromania/Pyromania/Content/Levels/HouseLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.29-09.37.12:149][  0]LightingResults: New page: Lighting Build
+[2018.07.29-09.37.12:197][  0]MapCheck: New page: Map Check
+[2018.07.29-09.37.12:197][  0]LightingResults: New page: Lighting Build
+[2018.07.29-09.37.13:217][  0]LogAIModule: Creating AISystem for world HouseLevel
+[2018.07.29-09.37.13:242][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.29-09.37.13:253][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.29-09.37.13:308][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.079ms to complete.
+[2018.07.29-09.37.13:308][  0]LogFileHelpers: Loading map 'HouseLevel' took 1.160
+[2018.07.29-09.37.13:734][  0]LogCollectionManager: Loaded 0 collections in 0.002061 seconds
+[2018.07.29-09.37.13:850][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Saved/Collections/' took 0.01s
+[2018.07.29-09.37.13:850][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/Developers/ethan/Collections/' took 0.01s
+[2018.07.29-09.37.13:850][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/Collections/' took 0.01s
+[2018.07.29-09.37.13:850][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.07.29-09.37.13:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2330 classes and 493 folders.
+[2018.07.29-09.37.13:947][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.07.29-09.37.14:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.29-09.37.14:550][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.07.29-09.37.14:584][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.29-09.37.14:586][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.29-09.37.14:628][  0]LogSlate: Took 0.016430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.29-09.37.14:823][  0]LogRenderer: Reallocating scene render targets to support 1312x568 NumSamples 1 (Frame:1).
+[2018.07.29-09.37.14:945][  0]LogSlate: Took 0.007977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.29-09.37.15:018][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.07.29-09.37.15:091][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.07.29-09.37.15:091][  0]LogLoad: (Engine Initialization) Total time: 23.00 seconds
+[2018.07.29-09.37.15:091][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2018.07.29-09.37.15:091][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.29-09.37.15:430][  0]LogOcInput: OculusInput pre-init called
+[2018.07.29-09.37.15:430][  0]LogHMD: Starting GearVRController plugin
+[2018.07.29-09.37.15:458][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.07.29-09.37.15:790][  1]LogAssetRegistry: Asset discovery search completed in 13.9606 seconds
+[2018.07.29-09.37.15:792][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.29-09.37.15:792][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2018.07.29-09.38.04:571][771]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.29-09.38.04:588][771]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody.fbx)
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: Material, ItemCount : 1
+[2018.07.29-09.38.04:666][771]LogFbx: ItemName: Model, ItemCount : 1
+[2018.07.29-09.38.04:692][771]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Sofa/SofaBody.fbx
+[2018.07.29-09.38.04:726][771]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.29-09.38.06:678][771]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Sofa/SofaBody.fbx
+[2018.07.29-09.38.06:685][771]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.29-09.38.06:693][771]LogLinker: Can't find file '/Game/lambert1'
+[2018.07.29-09.38.06:693][771]LogLinker: Can't find file '/Game/lambert1'
+[2018.07.29-09.38.06:701][771]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.38.06:738][771]LogFbx:Warning: Triangulating static mesh SofaBody
+[2018.07.29-09.38.07:272][771]LogStaticMesh: Building static mesh SofaBody...
+[2018.07.29-09.38.07:278][771]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.07.29-09.38.07:328][771]LogStaticMesh: Built static mesh [0.06s] /Game/SofaBody.SofaBody
+[2018.07.29-09.38.07:361][771]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.29-09.38.07:363][771]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.29-09.38.07:363][771]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.07.29-09.38.07:398][771]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody_lambert1_BaseColor.png)
+[2018.07.29-09.38.07:621][771]LogTexture:Display: Building textures: SofaBody_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2018.07.29-09.38.08:432][771]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody_lambert1_Height.png)
+[2018.07.29-09.38.08:463][771]LogTexture:Display: Building textures: SofaBody_lambert1_Height (AutoDXT, 2048X2048)
+[2018.07.29-09.38.09:023][771]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody_lambert1_Metallic.png)
+[2018.07.29-09.38.09:042][771]LogTexture:Display: Building textures: SofaBody_lambert1_Metallic (AutoDXT, 2048X2048)
+[2018.07.29-09.38.09:384][771]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody_lambert1_Normal.png)
+[2018.07.29-09.38.09:616][771]LogTexture:Display: Building textures: SofaBody_lambert1_Normal (BC5, 2048X2048)
+[2018.07.29-09.38.09:923][771]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.29-09.38.09:949][771]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBody_lambert1_Roughness.png)
+[2018.07.29-09.38.09:994][771]LogTexture:Display: Building textures: SofaBody_lambert1_Roughness (AutoDXT, 2048X2048)
+[2018.07.29-09.38.15:525][196]LogActorFactory: Actor Factory created SofaBody
+[2018.07.29-09.38.15:986][229]LogActorFactory: Actor Factory created SofaBody
+[2018.07.29-09.39.08:366][589]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.08:856][589]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.08:871][589]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.08:909][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.29-09.39.08:934][589]LogSlate: Took 0.008085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.29-09.39.09:130][590]LogSlate: Took 0.008994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.29-09.39.09:870][627]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.07.29-09.39.09:870][627]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-09.39.09:870][627]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-09.39.11:882][794]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.12:876][809]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.07.29-09.39.12:876][809]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-09.39.12:876][809]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-09.39.14:429][927]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.14:442][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.14:473][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.15:129][966]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.07.29-09.39.15:129][966]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-09.39.15:129][966]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-09.39.18:263][258]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.18:284][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.18:932][297]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.18:933][297]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.18:933][297]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.18:933][297]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.23:706][731]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.23:718][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.23:749][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.23:755][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.24:301][754]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.24:301][754]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.24:302][754]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.24:302][754]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.26:413][899]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.26:426][899]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.29-09.39.26:458][899]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.26:464][899]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.26:470][899]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.29-09.39.27:204][937]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.27:204][937]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.27:205][937]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.27:205][937]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.39:052][ 50]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.39:582][ 78]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.39:582][ 78]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.39:582][ 78]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.39:582][ 78]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.42:462][352]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.42:481][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.29-09.39.43:022][379]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.43:022][379]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.43:022][379]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.43:022][379]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.44:299][500]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.44:315][500]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.44:855][527]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-09.39.44:855][527]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.44:855][527]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-09.39.44:855][527]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.46:903][716]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.47:663][771]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2018.07.29-09.39.47:663][771]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.47:663][771]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.07.29-09.39.47:663][771]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.48:929][871]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.48:942][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.07.29-09.39.48:973][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.48:979][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.48:984][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.29-09.39.48:990][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.07.29-09.39.49:541][893]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2018.07.29-09.39.49:541][893]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.49:541][893]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.07.29-09.39.49:541][893]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.51:931][108]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.51:949][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.07.29-09.39.53:222][202]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-09.39.53:222][202]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.53:222][202]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-09.39.53:222][202]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.54:533][305]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.54:545][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.07.29-09.39.54:578][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.29-09.39.54:585][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.29-09.39.54:591][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.29-09.39.54:596][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.07.29-09.39.54:603][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.07.29-09.39.55:129][325]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-09.39.55:129][325]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.55:129][325]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-09.39.55:129][325]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.57:435][529]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.57:455][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.07.29-09.39.58:017][554]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-09.39.58:017][554]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.39.58:017][554]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.07.29-09.39.58:017][554]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.39.58:939][633]LogMaterialEditor: Saving and Compiling material lambert1
+[2018.07.29-09.39.59:504][633]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.59:547][633]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.59:573][633]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.39.59:614][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-09.40.00:022][633]TextureStreamingBuild:Display: Compiling optional shaders took 0.416 seconds.
+[2018.07.29-09.40.01:268][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Content/lambert1.uasset" SILENT=true
+[2018.07.29-09.40.01:328][633]LogSavePackage: Save=54.83ms
+[2018.07.29-09.40.01:329][633]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert128C15677434C73546E2CAFB5A5DE13BD.tmp' to 'I:/Pyromania/Pyromania/Content/lambert1.uasset'
+[2018.07.29-09.40.01:335][633]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/lambert1.uasset
+[2018.07.29-09.40.01:344][633]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-09.40.01:344][633]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.40.01:344][633]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.07.29-09.40.01:344][633]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.40.15:542][301]MapCheck: New page: Map Check
+[2018.07.29-09.40.15:568][301]Cmd: MAP REBUILD ALLVISIBLE
+[2018.07.29-09.40.15:571][301]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.07.29-09.40.15:937][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.07.29-09.40.15:945][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_18, compiling. 
+[2018.07.29-09.40.15:951][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FemaleFireTexture, compiling. 
+[2018.07.29-09.40.15:958][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blinn13, compiling. 
+[2018.07.29-09.40.15:968][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_20, compiling. 
+[2018.07.29-09.40.15:975][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-09.40.16:211][301]TextureStreamingBuild:Display: Compiling optional shaders took 0.302 seconds.
+[2018.07.29-09.40.16:230][301]LogLevel:Display: Export Material TexCoord Scales took 0.019 seconds.
+[2018.07.29-09.40.16:243][301]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
+[2018.07.29-09.40.16:259][301]LightingResults: New page: Lighting Build - 29 Jul 2018 11:40:16
+[2018.07.29-09.40.16:363][301]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.07.29-09.40.16:455][301]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.07.29-09.40.16:618][301]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.07.29-09.40.17:158][301]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.07.29-09.40.17:158][301]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8152
+[2018.07.29-09.40.19:710][301]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.07.29-09.40.19:716][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.07.29-09.40.19:716][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.07.29-09.40.19:716][301]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.07.29-09.40.19:716][301]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.07.29-09.40.19:716][301]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.07.29-09.40.19:927][301]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.07.29-09.40.19:928][301]MapCheck: New page: HouseLevel - 29 Jul 2018 11:40:19
+[2018.07.29-09.40.19:947][301]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.07.29-09.40.20:005][301]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 77.187ms to complete.
+[2018.07.29-09.40.20:029][301]LogEditorBuildUtils: Build time 0:04
+[2018.07.29-09.40.20:130][302]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn13, compiling. 
+[2018.07.29-09.40.20:136][302]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn13, compiling. 
+[2018.07.29-09.40.20:167][303]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-09.40.20:173][303]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-09.40.23:978][415]Job is a success!
+[2018.07.29-09.40.24:501][416]LogMaterial:Warning: Material /Game/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.07.29-09.40.24:502][416]LogMaterial:Warning: Material /Engine/Transient.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.07.29-09.40.24:504][416]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.40.24:522][416]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.07.29-09.40.24:773][416]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.07.29-09.40.24:875][416]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.07.29-09.40.24:875][416]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 128X64)
+[2018.07.29-09.40.24:875][416]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 512X512)
+[2018.07.29-09.40.24:940][416]Lightmass on DESKTOP-P0UCGMH: 3.35 sec total, 133 ms importing, 21 ms setup, 407 ms photons, 2.77 sec processing, 0 ms extra exporting [301/301 mappings]. Threads: 13.8 sec total, 6.20 sec processing.
+[2018.07.29-09.40.24:998][416]LogStaticLightingSystem: Illumination: 8.40 sec (205 ms encoding lightmaps, 100 ms encoding shadowmaps)
+[2018.07.29-09.40.24:998][416]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.07.29-09.40.24:998][416]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2018.07.29-09.40.25:740][416]DumpUnbuiltLightIteractions
+[2018.07.29-09.40.25:740][416]Lights with unbuilt interactions: 0
+[2018.07.29-09.40.25:740][416]
+[2018.07.29-09.40.25:740][416]Primitives with unbuilt interactions: 0
+[2018.07.29-09.40.25:761][417]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.07.29-09.40.25:761][417]MapCheck: New page: HouseLevel - 29 Jul 2018 11:40:25
+[2018.07.29-09.40.25:842][417]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.97ms to complete.
+[2018.07.29-09.40.27:514][422]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-09.40.27:514][422]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-09.40.27:514][422]MaterialEditorStats: Info Texture samplers: 8/16
+[2018.07.29-09.40.27:514][422]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-09.40.56:326][840]LogTemp: Repeting last play command: Selected Viewport
+[2018.07.29-09.40.56:512][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.07.29-09.40.56:514][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.29-09.40.56:520][840]PIE: New page: PIE session: HouseLevel (29 Jul 2018 11:40:56)
+[2018.07.29-09.40.56:521][840]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.07.29-09.40.56:546][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025097s)
+[2018.07.29-09.40.56:546][840]LogAIModule: Creating AISystem for world HouseLevel
+[2018.07.29-09.40.56:547][840]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.07.29-09.40.56:549][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.028087s)
+[2018.07.29-09.40.56:568][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.29-09.40.56:583][840]LogInit: FAudioDevice initialized.
+[2018.07.29-09.40.56:954][840]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.29-09.40.56:974][840]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.07.29-10.40.56
+[2018.07.29-09.40.56:978][840]LogWorld: Bringing up level for play took: 0.007051
+[2018.07.29-09.40.57:053][840]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.07.29-09.40.57:077][840]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel 0.259
+[2018.07.29-09.40.57:077][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.07.29-09.41.12:997][744]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.07.29-09.41.13:043][744]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.07.29-09.47.42:534][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/HouseLevel" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.29-09.47.42:996][537]LogSavePackage: Save=402.50ms
+[2018.07.29-09.47.42:996][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/HouseLevel_Auto199A36E3C425A275D4FC549AD63FA9C40.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto1.umap'
+[2018.07.29-09.47.42:997][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto1.umap
+[2018.07.29-09.47.43:002][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/HouseLevel' took 0.492
+[2018.07.29-09.47.43:002][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.492
+[2018.07.29-09.47.43:004][537]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/HouseLevel_BuiltData] ([1] browsable assets)...
+[2018.07.29-09.47.43:004][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/HouseLevel_BuiltData]
+[2018.07.29-09.47.43:004][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/HouseLevel_BuiltData" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:260][537]LogSavePackage: Save=211.86ms
+[2018.07.29-09.47.43:260][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/HouseLevel_BuiltData_Auto1AA5AFC2C440E6844BC42618025464D55.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_BuiltData_Auto1.uasset'
+[2018.07.29-09.47.43:261][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_BuiltData_Auto1.uasset
+[2018.07.29-09.47.43:261][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody] ([1] browsable assets)...
+[2018.07.29-09.47.43:273][537]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SofaBody.SofaBody]
+[2018.07.29-09.47.43:273][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody]
+[2018.07.29-09.47.43:273][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:292][537]LogSavePackage: Save=17.54ms
+[2018.07.29-09.47.43:292][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_Auto124271EFF4CF6AB68252F45833143C21B.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_Auto1.uasset'
+[2018.07.29-09.47.43:293][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_Auto1.uasset
+[2018.07.29-09.47.43:293][537]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/lambert1] ([1] browsable assets)...
+[2018.07.29-09.47.43:293][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/lambert1]
+[2018.07.29-09.47.43:293][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:315][537]LogSavePackage: Save=10.72ms
+[2018.07.29-09.47.43:315][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert1_Auto1D17A85574D2322F5D54A05BF03875ECD.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto1.uasset'
+[2018.07.29-09.47.43:315][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto1.uasset
+[2018.07.29-09.47.43:316][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody_lambert1_BaseColor] ([1] browsable assets)...
+[2018.07.29-09.47.43:322][537]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBody_lambert1_BaseColor.SofaBody_lambert1_BaseColor]
+[2018.07.29-09.47.43:322][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody_lambert1_BaseColor]
+[2018.07.29-09.47.43:322][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody_lambert1_BaseColor" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_BaseColor_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:643][537]LogSavePackage: Save=240.58ms
+[2018.07.29-09.47.43:643][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_BaseColor_Auto1FA783A15497ABE1AF86184831E631A7A.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_BaseColor_Auto1.uasset'
+[2018.07.29-09.47.43:644][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_BaseColor_Auto1.uasset
+[2018.07.29-09.47.43:644][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody_lambert1_Height] ([1] browsable assets)...
+[2018.07.29-09.47.43:651][537]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBody_lambert1_Height.SofaBody_lambert1_Height]
+[2018.07.29-09.47.43:651][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody_lambert1_Height]
+[2018.07.29-09.47.43:651][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody_lambert1_Height" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Height_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:709][537]LogSavePackage: Save=55.71ms
+[2018.07.29-09.47.43:709][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Height_Auto14AE96A6B4DCF422F5C24DEBA8AAEFC35.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Height_Auto1.uasset'
+[2018.07.29-09.47.43:709][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Height_Auto1.uasset
+[2018.07.29-09.47.43:710][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody_lambert1_Metallic] ([1] browsable assets)...
+[2018.07.29-09.47.43:713][537]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBody_lambert1_Metallic.SofaBody_lambert1_Metallic]
+[2018.07.29-09.47.43:713][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody_lambert1_Metallic]
+[2018.07.29-09.47.43:713][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody_lambert1_Metallic" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Metallic_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.43:782][537]LogSavePackage: Save=66.97ms
+[2018.07.29-09.47.43:782][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Metallic_Auto16C54AA9044BB6DE9DBACA6B8CA7C0654.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Metallic_Auto1.uasset'
+[2018.07.29-09.47.43:783][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Metallic_Auto1.uasset
+[2018.07.29-09.47.43:783][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody_lambert1_Normal] ([1] browsable assets)...
+[2018.07.29-09.47.43:790][537]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBody_lambert1_Normal.SofaBody_lambert1_Normal]
+[2018.07.29-09.47.43:790][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody_lambert1_Normal]
+[2018.07.29-09.47.43:790][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody_lambert1_Normal" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Normal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.44:064][537]LogSavePackage: Save=257.18ms
+[2018.07.29-09.47.44:064][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Normal_Auto1F47B727F448062803F9B58A196D73AB0.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Normal_Auto1.uasset'
+[2018.07.29-09.47.44:065][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Normal_Auto1.uasset
+[2018.07.29-09.47.44:066][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBody_lambert1_Roughness] ([1] browsable assets)...
+[2018.07.29-09.47.44:072][537]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBody_lambert1_Roughness.SofaBody_lambert1_Roughness]
+[2018.07.29-09.47.44:072][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBody_lambert1_Roughness]
+[2018.07.29-09.47.44:072][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBody_lambert1_Roughness" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Roughness_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-09.47.44:233][537]LogSavePackage: Save=124.82ms
+[2018.07.29-09.47.44:233][537]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Roughness_Auto1697758E3479BD06A9C336FB6B7B6415A.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Roughness_Auto1.uasset'
+[2018.07.29-09.47.44:234][537]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBody_lambert1_Roughness_Auto1.uasset
+[2018.07.29-09.47.44:234][537]LogFileHelpers: Auto-saving content packages took 1.232
+[2018.07.29-10.10.25:665][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody_lambert1_Roughness" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Roughness.uasset" SILENT=true
+[2018.07.29-10.10.25:859][ 39]LogSavePackage: Save=190.44ms
+[2018.07.29-10.10.25:859][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Roughness400E24C041F289412925F798F10DC31F.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Roughness.uasset'
+[2018.07.29-10.10.25:862][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Roughness.uasset
+[2018.07.29-10.10.25:871][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody_lambert1_Normal" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Normal.uasset" SILENT=true
+[2018.07.29-10.10.26:663][ 39]LogSavePackage: Save=782.36ms
+[2018.07.29-10.10.26:663][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_NormalC94A142446A5F7533DE3E1B57C8B33E2.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Normal.uasset'
+[2018.07.29-10.10.26:665][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Normal.uasset
+[2018.07.29-10.10.26:671][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody_lambert1_Metallic" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Metallic.uasset" SILENT=true
+[2018.07.29-10.10.26:718][ 39]LogSavePackage: Save=45.19ms
+[2018.07.29-10.10.26:718][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Metallic82ADF71E4E70A7EB9DA31CA8C248F581.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Metallic.uasset'
+[2018.07.29-10.10.26:722][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Metallic.uasset
+[2018.07.29-10.10.26:730][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody_lambert1_Height" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Height.uasset" SILENT=true
+[2018.07.29-10.10.26:913][ 39]LogSavePackage: Save=179.76ms
+[2018.07.29-10.10.26:913][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_Height574DAE854E6F470ADF88099A4095EE0A.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Height.uasset'
+[2018.07.29-10.10.26:916][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_Height.uasset
+[2018.07.29-10.10.26:925][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody_lambert1_BaseColor" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_BaseColor.uasset" SILENT=true
+[2018.07.29-10.10.27:346][ 39]LogSavePackage: Save=418.32ms
+[2018.07.29-10.10.27:346][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody_lambert1_BaseColor0111C71946BC00588A224C90AE6F83BA.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_BaseColor.uasset'
+[2018.07.29-10.10.27:349][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody_lambert1_BaseColor.uasset
+[2018.07.29-10.10.27:362][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/SofaBody" FILE="I:/Pyromania/Pyromania/Content/old/SofaBody.uasset" SILENT=true
+[2018.07.29-10.10.27:382][ 39]LogSavePackage: Save=17.90ms
+[2018.07.29-10.10.27:382][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBody301CBFAC490B47329ADD94BBE08A743A.tmp' to 'I:/Pyromania/Pyromania/Content/old/SofaBody.uasset'
+[2018.07.29-10.10.27:385][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/SofaBody.uasset
+[2018.07.29-10.10.27:397][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/old/lambert1" FILE="I:/Pyromania/Pyromania/Content/old/lambert1.uasset" SILENT=true
+[2018.07.29-10.10.27:420][ 39]LogSavePackage: Save=19.45ms
+[2018.07.29-10.10.27:420][ 39]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert1B961543E4854BF89A872D2AED898CDA7.tmp' to 'I:/Pyromania/Pyromania/Content/old/lambert1.uasset'
+[2018.07.29-10.10.27:422][ 39]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/old/lambert1.uasset
+[2018.07.29-10.10.36:636][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2.fbx)
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: Material, ItemCount : 1
+[2018.07.29-10.10.36:640][297]LogFbx: ItemName: Model, ItemCount : 1
+[2018.07.29-10.10.36:645][297]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2.fbx
+[2018.07.29-10.10.36:653][297]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.29-10.10.38:518][297]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2.fbx
+[2018.07.29-10.10.38:526][297]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.29-10.10.38:533][297]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.10.38:548][297]LogFbx:Warning: Triangulating static mesh SofaBody
+[2018.07.29-10.10.38:801][297]LogStaticMesh: Building static mesh SofaBodyLow2...
+[2018.07.29-10.10.38:806][297]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.07.29-10.10.38:873][297]LogStaticMesh: Built static mesh [0.07s] /Game/SofaBodyLow2.SofaBodyLow2
+[2018.07.29-10.10.38:896][297]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.29-10.10.38:896][297]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.07.29-10.10.38:934][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2_lambert1_BaseColor.png)
+[2018.07.29-10.10.39:168][297]LogTexture:Display: Building textures: SofaBodyLow2_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2018.07.29-10.10.39:963][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2_lambert1_Height.png)
+[2018.07.29-10.10.39:992][297]LogTexture:Display: Building textures: SofaBodyLow2_lambert1_Height (AutoDXT, 2048X2048)
+[2018.07.29-10.10.40:505][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2_lambert1_Metallic.png)
+[2018.07.29-10.10.40:522][297]LogTexture:Display: Building textures: SofaBodyLow2_lambert1_Metallic (AutoDXT, 2048X2048)
+[2018.07.29-10.10.40:836][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2_lambert1_Normal.png)
+[2018.07.29-10.10.41:082][297]LogTexture:Display: Building textures: SofaBodyLow2_lambert1_Normal (BC5, 2048X2048)
+[2018.07.29-10.10.41:412][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Pyromania/StaticMeshes/Sofa/SofaBodyLow2_lambert1_Roughness.png)
+[2018.07.29-10.10.41:461][297]LogTexture:Display: Building textures: SofaBodyLow2_lambert1_Roughness (AutoDXT, 2048X2048)
+[2018.07.29-10.10.44:610][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SofaBody)
+[2018.07.29-10.10.45:378][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/HouseLevel" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.29-10.10.45:760][608]LogSavePackage: Save=359.71ms
+[2018.07.29-10.10.45:760][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/HouseLevel_Auto2034E4DFA49E1D7EBE4DB06B6542ECFA7.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto2.umap'
+[2018.07.29-10.10.45:761][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/Levels/HouseLevel_Auto2.umap
+[2018.07.29-10.10.45:764][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/HouseLevel' took 0.394
+[2018.07.29-10.10.45:764][608]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.394
+[2018.07.29-10.10.45:765][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2] ([1] browsable assets)...
+[2018.07.29-10.10.45:777][608]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SofaBodyLow2.SofaBodyLow2]
+[2018.07.29-10.10.45:777][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2]
+[2018.07.29-10.10.45:777][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.45:797][608]LogSavePackage: Save=18.07ms
+[2018.07.29-10.10.45:797][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_Auto286032F5A4BA87B41DE40B78D9B03AB82.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_Auto2.uasset'
+[2018.07.29-10.10.45:798][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_Auto2.uasset
+[2018.07.29-10.10.45:798][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/lambert1] ([1] browsable assets)...
+[2018.07.29-10.10.45:810][608]OBJ SavePackage:     Rendered thumbnail for [Material /Game/lambert1.lambert1]
+[2018.07.29-10.10.45:810][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/lambert1]
+[2018.07.29-10.10.45:810][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.45:834][608]LogSavePackage: Save=20.51ms
+[2018.07.29-10.10.45:834][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert1_Auto2112393DC4055ACE8103DF3957CFEE006.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto2.uasset'
+[2018.07.29-10.10.45:835][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/lambert1_Auto2.uasset
+[2018.07.29-10.10.45:835][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2_lambert1_BaseColor] ([1] browsable assets)...
+[2018.07.29-10.10.45:842][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBodyLow2_lambert1_BaseColor.SofaBodyLow2_lambert1_BaseColor]
+[2018.07.29-10.10.45:842][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2_lambert1_BaseColor]
+[2018.07.29-10.10.45:842][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_BaseColor" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_BaseColor_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.46:051][608]LogSavePackage: Save=204.84ms
+[2018.07.29-10.10.46:051][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_BaseColor_Auto21B41B031414B1D0225C4B4A5D372DEF3.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_BaseColor_Auto2.uasset'
+[2018.07.29-10.10.46:051][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_BaseColor_Auto2.uasset
+[2018.07.29-10.10.46:052][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2_lambert1_Height] ([1] browsable assets)...
+[2018.07.29-10.10.46:058][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBodyLow2_lambert1_Height.SofaBodyLow2_lambert1_Height]
+[2018.07.29-10.10.46:058][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2_lambert1_Height]
+[2018.07.29-10.10.46:058][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Height" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Height_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.46:117][608]LogSavePackage: Save=56.50ms
+[2018.07.29-10.10.46:117][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Height_Auto2622B185B49532530D581AC9F98405B8F.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Height_Auto2.uasset'
+[2018.07.29-10.10.46:117][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Height_Auto2.uasset
+[2018.07.29-10.10.46:118][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2_lambert1_Metallic] ([1] browsable assets)...
+[2018.07.29-10.10.46:121][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBodyLow2_lambert1_Metallic.SofaBodyLow2_lambert1_Metallic]
+[2018.07.29-10.10.46:121][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2_lambert1_Metallic]
+[2018.07.29-10.10.46:121][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Metallic" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Metallic_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.46:222][608]LogSavePackage: Save=98.76ms
+[2018.07.29-10.10.46:223][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Metallic_Auto2CEE077B24ACB25F1C515C2920F01C30D.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Metallic_Auto2.uasset'
+[2018.07.29-10.10.46:223][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Metallic_Auto2.uasset
+[2018.07.29-10.10.46:224][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2_lambert1_Normal] ([1] browsable assets)...
+[2018.07.29-10.10.46:230][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBodyLow2_lambert1_Normal.SofaBodyLow2_lambert1_Normal]
+[2018.07.29-10.10.46:230][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2_lambert1_Normal]
+[2018.07.29-10.10.46:230][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Normal" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Normal_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.46:466][608]LogSavePackage: Save=234.07ms
+[2018.07.29-10.10.46:466][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Normal_Auto2CBFA734A4CDCE6D0112A4090CD7E82C5.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Normal_Auto2.uasset'
+[2018.07.29-10.10.46:467][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Normal_Auto2.uasset
+[2018.07.29-10.10.46:467][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SofaBodyLow2_lambert1_Roughness] ([1] browsable assets)...
+[2018.07.29-10.10.46:474][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SofaBodyLow2_lambert1_Roughness.SofaBodyLow2_lambert1_Roughness]
+[2018.07.29-10.10.46:474][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/SofaBodyLow2_lambert1_Roughness]
+[2018.07.29-10.10.46:474][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Roughness" FILE="I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Roughness_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.29-10.10.46:527][608]LogSavePackage: Save=50.81ms
+[2018.07.29-10.10.46:527][608]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Roughness_Auto288A2EEA743D5D0F8E6008893A5CFDBF4.tmp' to 'I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Roughness_Auto2.uasset'
+[2018.07.29-10.10.46:528][608]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Saved/Autosaves/Game/SofaBodyLow2_lambert1_Roughness_Auto2.uasset
+[2018.07.29-10.10.46:528][608]LogFileHelpers: Auto-saving content packages took 0.763
+[2018.07.29-10.10.47:202][654]LogActorFactory: Actor Factory created SofaBodyLow2
+[2018.07.29-10.10.47:451][669]LogActorFactory: Actor Factory created SofaBodyLow2
+[2018.07.29-10.10.47:478][669]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_BaseColor_Mat, compiling. 
+[2018.07.29-10.10.47:530][669]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_Height_Mat, compiling. 
+[2018.07.29-10.10.47:561][669]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_Metallic_Mat, compiling. 
+[2018.07.29-10.10.47:655][669]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_Mat, compiling. 
+[2018.07.29-10.10.47:684][669]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_Roughness_Mat, compiling. 
+[2018.07.29-10.10.47:769][670]LogMaterial:Warning: Material /Game/SofaBodyLow2_lambert1_Roughness_Mat.SofaBodyLow2_lambert1_Roughness_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.07.29-10.10.47:784][670]LogMaterial: Missing cached shader map for material SofaBodyLow2_lambert1_Roughness_Mat, compiling. 
+[2018.07.29-10.11.18:991][315]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.19:113][315]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.19:126][315]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.19:162][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.29-10.11.20:078][364]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.07.29-10.11.20:078][364]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-10.11.20:078][364]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-10.11.23:101][622]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.23:613][652]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.07.29-10.11.23:613][652]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-10.11.23:613][652]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-10.11.25:011][759]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.25:023][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.25:057][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.25:543][780]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.07.29-10.11.25:543][780]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.07.29-10.11.25:543][780]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.07.29-10.11.26:841][890]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.26:854][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.27:421][916]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.27:421][916]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.27:421][916]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.27:421][916]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.35:740][639]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.36:277][668]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.36:277][668]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.36:277][668]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.36:277][668]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.38:406][840]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.38:419][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.38:455][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.38:461][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.38:992][863]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.38:992][863]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.38:992][863]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.38:992][863]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.40:493][990]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.40:511][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.41:049][ 16]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.41:049][ 16]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.41:049][ 16]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.41:049][ 16]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.43:689][227]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.43:702][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.11.43:734][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.43:741][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.43:745][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.11.44:300][250]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.44:300][250]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.44:300][250]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.44:300][250]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.46:524][435]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.46:541][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.11.47:063][459]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.07.29-10.11.47:063][459]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.47:063][459]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.07.29-10.11.47:063][459]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.48:225][554]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.48:747][579]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2018.07.29-10.11.48:747][579]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.48:747][579]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.07.29-10.11.48:747][579]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.49:567][636]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.49:578][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.11.49:613][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.49:618][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.49:622][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.11.49:627][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.11.50:161][656]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2018.07.29-10.11.50:161][656]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.50:161][656]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.07.29-10.11.50:161][656]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.51:442][755]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.51:459][755]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.11.52:020][780]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-10.11.52:020][780]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.52:020][780]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-10.11.52:020][780]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.53:746][904]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.53:758][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.29-10.11.53:788][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.11.53:793][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.11.53:798][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.11.53:804][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.11.53:810][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.29-10.11.54:344][924]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-10.11.54:344][924]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.54:344][924]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-10.11.54:344][924]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.55:302][994]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.55:320][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.29-10.11.55:887][ 20]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-10.11.55:887][ 20]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.55:887][ 20]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.07.29-10.11.55:887][ 20]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.11.56:248][ 49]LogMaterialEditor: Saving and Compiling material lambert1
+[2018.07.29-10.11.56:816][ 49]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.56:857][ 49]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.56:882][ 49]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.11.56:919][ 49]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.11.57:334][ 49]TextureStreamingBuild:Display: Compiling optional shaders took 0.421 seconds.
+[2018.07.29-10.11.58:576][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Content/lambert1.uasset" SILENT=true
+[2018.07.29-10.11.58:644][ 49]LogSavePackage: Save=65.29ms
+[2018.07.29-10.11.58:644][ 49]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert1C1307C514AB51145E36263A60122341E.tmp' to 'I:/Pyromania/Pyromania/Content/lambert1.uasset'
+[2018.07.29-10.11.58:651][ 49]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/lambert1.uasset
+[2018.07.29-10.11.58:661][ 49]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-10.11.58:661][ 49]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.11.58:661][ 49]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.07.29-10.11.58:661][ 49]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.01:478][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SofaBodyLow2)
+[2018.07.29-10.12.05:413][723]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.07.29-10.12.08:534][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SofaBody)
+[2018.07.29-10.12.11:293][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.11:380][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.11:394][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.11:435][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.12.11:440][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.12.11:444][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.07.29-10.12.11:448][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.12.11:455][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.12.12:035][355]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-10.12.12:035][355]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.12.12:035][355]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.07.29-10.12.12:035][355]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.21:337][141]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.21:348][141]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (4 / 4)
+[2018.07.29-10.12.21:880][166]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-10.12.21:880][166]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.12.21:880][166]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-10.12.21:880][166]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.22:655][221]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.22:667][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.07.29-10.12.22:702][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.29-10.12.22:708][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.07.29-10.12.22:713][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.29-10.12.22:719][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.29-10.12.22:725][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.07.29-10.12.23:272][242]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.07.29-10.12.23:272][242]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.12.23:272][242]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.07.29-10.12.23:272][242]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.24:682][352]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.24:704][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.07.29-10.12.25:268][378]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-10.12.25:268][378]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.12.25:268][378]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.07.29-10.12.25:268][378]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.25:889][429]LogMaterialEditor: Saving and Compiling material lambert1
+[2018.07.29-10.12.26:457][429]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.07.29-10.12.26:499][429]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.12.26:526][429]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.12.26:565][429]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.12.26:961][429]TextureStreamingBuild:Display: Compiling optional shaders took 0.402 seconds.
+[2018.07.29-10.12.28:174][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Content/lambert1.uasset" SILENT=true
+[2018.07.29-10.12.28:218][429]LogSavePackage: Save=19.28ms
+[2018.07.29-10.12.28:218][429]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert1B8EB989D4447BA17F1E3649F7802BABD.tmp' to 'I:/Pyromania/Pyromania/Content/lambert1.uasset'
+[2018.07.29-10.12.28:221][429]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/lambert1.uasset
+[2018.07.29-10.12.28:230][429]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2018.07.29-10.12.28:230][429]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.07.29-10.12.28:230][429]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.07.29-10.12.28:230][429]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.29-10.12.30:356][650]MapCheck: New page: Map Check
+[2018.07.29-10.12.30:374][650]Cmd: MAP REBUILD ALLVISIBLE
+[2018.07.29-10.12.30:374][650]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.07.29-10.12.30:638][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.07.29-10.12.30:643][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_40, compiling. 
+[2018.07.29-10.12.30:649][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FemaleFireTexture, compiling. 
+[2018.07.29-10.12.30:654][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blinn13, compiling. 
+[2018.07.29-10.12.30:663][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_42, compiling. 
+[2018.07.29-10.12.30:668][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.12.30:674][650]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.12.30:919][650]TextureStreamingBuild:Display: Compiling optional shaders took 0.307 seconds.
+[2018.07.29-10.12.30:936][650]LogLevel:Display: Export Material TexCoord Scales took 0.017 seconds.
+[2018.07.29-10.12.30:950][650]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
+[2018.07.29-10.12.30:957][650]LightingResults: New page: Lighting Build - 29 Jul 2018 12:12:30
+[2018.07.29-10.12.30:971][650]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.07.29-10.12.30:979][650]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.07.29-10.12.30:979][650]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.07.29-10.12.30:980][650]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.07.29-10.12.30:980][650]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8152
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.07.29-10.12.35:516][650]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.07.29-10.12.35:669][650]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.07.29-10.12.35:669][650]MapCheck: New page: HouseLevel - 29 Jul 2018 12:12:35
+[2018.07.29-10.12.35:670][650]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.07.29-10.12.35:734][650]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 64.822ms to complete.
+[2018.07.29-10.12.35:757][650]LogEditorBuildUtils: Build time 0:05
+[2018.07.29-10.12.35:792][650]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.12.35:797][650]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.12.35:839][651]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.12.35:846][651]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.12.39:070][869]Job is a success!
+[2018.07.29-10.12.39:203][870]LogMaterial:Warning: Material /Game/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.07.29-10.12.39:205][870]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2018.07.29-10.12.39:443][870]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 256X64)
+[2018.07.29-10.12.39:506][870]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 512X512)
+[2018.07.29-10.12.39:539][870]Lightmass on DESKTOP-P0UCGMH: 2.77 sec total, 93 ms importing, 16 ms setup, 423 ms photons, 2.21 sec processing, 0 ms extra exporting [302/302 mappings]. Threads: 11.0 sec total, 6.60 sec processing.
+[2018.07.29-10.12.39:569][870]LogStaticLightingSystem: Illumination: 8.58 sec (160 ms encoding lightmaps, 98 ms encoding shadowmaps)
+[2018.07.29-10.12.39:569][870]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.07.29-10.12.39:569][870]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.1 MB streaming, 1.3 MB non-streaming), 3 textures
+[2018.07.29-10.12.40:531][870]DumpUnbuiltLightIteractions
+[2018.07.29-10.12.40:531][870]Lights with unbuilt interactions: 0
+[2018.07.29-10.12.40:531][870]
+[2018.07.29-10.12.40:531][870]Primitives with unbuilt interactions: 0
+[2018.07.29-10.12.40:540][871]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.07.29-10.12.40:540][871]MapCheck: New page: HouseLevel - 29 Jul 2018 12:12:40
+[2018.07.29-10.12.40:613][871]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.706ms to complete.
+[2018.07.29-10.14.10:609][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.07.29-10.15.10:064][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stairs_StaticMesh)
+[2018.07.29-10.15.13:316][771]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2018.07.29-10.15.18:403][348]MapCheck: New page: Map Check
+[2018.07.29-10.15.18:423][348]Cmd: MAP REBUILD ALLVISIBLE
+[2018.07.29-10.15.18:423][348]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.07.29-10.15.18:666][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.07.29-10.15.18:671][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_48, compiling. 
+[2018.07.29-10.15.18:677][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FemaleFireTexture, compiling. 
+[2018.07.29-10.15.18:682][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blinn13, compiling. 
+[2018.07.29-10.15.18:687][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_50, compiling. 
+[2018.07.29-10.15.18:692][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.15.18:700][348]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.29-10.15.19:271][348]TextureStreamingBuild:Display: Compiling optional shaders took 0.609 seconds.
+[2018.07.29-10.15.19:277][348]LogLevel:Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.07.29-10.15.19:290][348]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
+[2018.07.29-10.15.19:297][348]LightingResults: New page: Lighting Build - 29 Jul 2018 12:15:19
+[2018.07.29-10.15.19:307][348]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.07.29-10.15.19:315][348]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.07.29-10.15.19:315][348]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.07.29-10.15.19:316][348]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.07.29-10.15.19:316][348]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8152
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.07.29-10.15.23:835][348]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.07.29-10.15.23:928][348]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.07.29-10.15.23:928][348]MapCheck: New page: HouseLevel - 29 Jul 2018 12:15:23
+[2018.07.29-10.15.23:928][348]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.07.29-10.15.24:007][348]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 78.409ms to complete.
+[2018.07.29-10.15.24:031][348]LogEditorBuildUtils: Build time 0:05
+[2018.07.29-10.15.24:060][348]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.15.24:065][348]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.29-10.15.27:260][550]Job is a success!
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2018.07.29-10.15.27:608][551]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 256X64)
+[2018.07.29-10.15.27:626][551]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 512X512)
+[2018.07.29-10.15.27:644][551]Lightmass on DESKTOP-P0UCGMH: 2.71 sec total, 102 ms importing, 17 ms setup, 435 ms photons, 2.13 sec processing, 0 ms extra exporting [302/302 mappings]. Threads: 10.6 sec total, 6.63 sec processing.
+[2018.07.29-10.15.27:677][551]LogStaticLightingSystem: Illumination: 8.35 sec (144 ms encoding lightmaps, 70 ms encoding shadowmaps)
+[2018.07.29-10.15.27:677][551]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.07.29-10.15.27:677][551]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.1 MB streaming, 1.3 MB non-streaming), 3 textures
+[2018.07.29-10.15.27:847][551]DumpUnbuiltLightIteractions
+[2018.07.29-10.15.27:847][551]Lights with unbuilt interactions: 0
+[2018.07.29-10.15.27:847][551]
+[2018.07.29-10.15.27:847][551]Primitives with unbuilt interactions: 0
+[2018.07.29-10.15.27:859][552]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.07.29-10.15.27:859][552]MapCheck: New page: HouseLevel - 29 Jul 2018 12:15:27
+[2018.07.29-10.15.27:925][552]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.855ms to complete.
+[2018.07.29-10.16.08:027][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/HouseLevel" FILE="I:/Pyromania/Pyromania/Content/Levels/HouseLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.29-10.16.08:738][417]LogSavePackage: Save=345.89ms
+[2018.07.29-10.16.08:738][417]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/HouseLevelE9B2F8CB404931E3B83BC28F0E43490D.tmp' to 'I:/Pyromania/Pyromania/Content/Levels/HouseLevel.umap'
+[2018.07.29-10.16.08:754][417]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/Levels/HouseLevel.umap
+[2018.07.29-10.16.08:788][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/HouseLevel_BuiltData" FILE="I:/Pyromania/Pyromania/Content/Levels/HouseLevel_BuiltData.uasset" SILENT=true
+[2018.07.29-10.16.08:912][417]LogSavePackage: Save=103.09ms
+[2018.07.29-10.16.08:912][417]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/HouseLevel_BuiltData82DD47C0406866B912AE2ABE35BC4E9D.tmp' to 'I:/Pyromania/Pyromania/Content/Levels/HouseLevel_BuiltData.uasset'
+[2018.07.29-10.16.08:924][417]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/Levels/HouseLevel_BuiltData.uasset
+[2018.07.29-10.16.12:422][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert1" FILE="I:/Pyromania/Pyromania/Content/lambert1.uasset" SILENT=true
+[2018.07.29-10.16.12:490][545]LogSavePackage: Save=61.61ms
+[2018.07.29-10.16.12:490][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/lambert11DA3DB4A4EACB00F7E635F80606B498B.tmp' to 'I:/Pyromania/Pyromania/Content/lambert1.uasset'
+[2018.07.29-10.16.12:493][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/lambert1.uasset
+[2018.07.29-10.16.12:506][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2.uasset" SILENT=true
+[2018.07.29-10.16.12:525][545]LogSavePackage: Save=16.95ms
+[2018.07.29-10.16.12:525][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2580818FB42914A231BDD0B9E351D8765.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2.uasset'
+[2018.07.29-10.16.12:533][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2.uasset
+[2018.07.29-10.16.12:541][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_BaseColor" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_BaseColor.uasset" SILENT=true
+[2018.07.29-10.16.12:949][545]LogSavePackage: Save=405.83ms
+[2018.07.29-10.16.12:949][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_BaseColor282D4AE24CCAF0DC9DFB24A05ADA7CB4.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_BaseColor.uasset'
+[2018.07.29-10.16.12:989][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_BaseColor.uasset
+[2018.07.29-10.16.12:998][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Height" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Height.uasset" SILENT=true
+[2018.07.29-10.16.13:080][545]LogSavePackage: Save=78.79ms
+[2018.07.29-10.16.13:080][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Height6A3CC9BE4619BF9764C243BE16FAB4B9.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Height.uasset'
+[2018.07.29-10.16.13:087][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Height.uasset
+[2018.07.29-10.16.13:093][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Metallic" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Metallic.uasset" SILENT=true
+[2018.07.29-10.16.13:186][545]LogSavePackage: Save=90.50ms
+[2018.07.29-10.16.13:186][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Metallic0C48BC3E41E062EF99ED3BABBC4A7F55.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Metallic.uasset'
+[2018.07.29-10.16.13:191][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Metallic.uasset
+[2018.07.29-10.16.13:200][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Normal" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Normal.uasset" SILENT=true
+[2018.07.29-10.16.13:960][545]LogSavePackage: Save=754.73ms
+[2018.07.29-10.16.13:960][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_Normal813182524F0EBF76310225A463FFC880.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Normal.uasset'
+[2018.07.29-10.16.13:970][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Normal.uasset
+[2018.07.29-10.16.13:978][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SofaBodyLow2_lambert1_Roughness" FILE="I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Roughness.uasset" SILENT=true
+[2018.07.29-10.16.14:215][545]LogSavePackage: Save=233.67ms
+[2018.07.29-10.16.14:215][545]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/SofaBodyLow2_lambert1_RoughnessAAC3A0874AD97D88F5F1D79E3F1B6C7A.tmp' to 'I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Roughness.uasset'
+[2018.07.29-10.16.14:218][545]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/SofaBodyLow2_lambert1_Roughness.uasset
+[2018.07.29-10.16.14:544][546]Cmd: QUIT_EDITOR
+[2018.07.29-10.16.15:225][546]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.07.29-10.16.15:240][546]LogExit: Preparing to exit.
+[2018.07.29-10.16.16:509][546]LogExit: Editor shut down
+[2018.07.29-10.16.16:514][546]LogExit: Transaction tracking system shut down
+[2018.07.29-10.16.16:616][546]LogObj: Freed 0b from 0 cluster array pools.
+[2018.07.29-10.16.16:616][546]LogExit: Object subsystem successfully closed.
+[2018.07.29-10.16.16:656][546]LogD3D11RHI: Shutdown
+[2018.07.29-10.16.16:656][546]LogD3D11RHI: CleanupD3DDevice
+[2018.07.29-10.16.16:752][546]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.29-10.16.16:772][546]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2018.07.29-10.16.16:773][546]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.07.29-10.16.16:774][546]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2018.07.29-10.16.16:774][546]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.07.29-10.16.16:774][546]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.07.29-10.16.16:774][546]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.07.29-10.16.16:775][546]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.07.29-10.16.16:778][546]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.07.29-10.16.16:778][546]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.07.29-10.16.16:778][546]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.07.29-10.16.16:779][546]LogDirectoryWatcher: A directory notification for 'I:/Pyromania/Pyromania/Content/Collections/' was aborted.
+[2018.07.29-10.16.16:779][546]LogDirectoryWatcher: A directory notification for 'I:/Pyromania/Pyromania/Content/Developers/ethan/Collections/' was aborted.
+[2018.07.29-10.16.16:779][546]LogDirectoryWatcher: A directory notification for 'I:/Pyromania/Pyromania/Saved/Collections/' was aborted.
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.07.29-10.16.16:779][546]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.07.29-10.16.16:780][546]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.07.29-10.16.17:008][546]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.07.29-10.16.17:009][546]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.07.29-10.16.17:065][546]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.07.29-10.16.17:066][546]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.07.29-10.16.17:088][546]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.07.29-10.16.17:089][546]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.07.29-10.16.17:190][546]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.07.29-10.16.17:290][546]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.07.29-10.16.17:291][546]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.07.29-10.16.17:291][546]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.07.29-10.16.17:291][546]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.07.29-10.16.17:291][546]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.07.29-10.16.17:295][546]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.07.29-10.16.17:296][546]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.07.29-10.16.17:296][546]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.07.29-10.16.17:298][546]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.07.29-10.16.17:492][546]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.29-10.16.17:492][546]LogDirectoryWatcher: A directory notification for 'I:/Pyromania/Pyromania/Content/' was aborted.
+[2018.07.29-10.16.17:492][546]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.29-10.16.17:492][546]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.07.29-10.16.17:497][546]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.07.29-10.16.17:500][546]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.07.29-10.16.17:584][546]LogDerivedDataCache: Shutdown
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.07.29-10.16.17:584][546]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.29-10.16.17:585][546]LogOnline:Display: Unloading online subsystem: NULL
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.29-10.16.17:585][546]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.29-10.16.17:585][546]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.29-10.16.17:585][546]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B69F03D-4447-F9FD-61CD-9B99C40A3ED5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f1fa16644fd2eac7125105bf7172ba62%7C72cc9f9e75a74d10b3c0c5903e0bab93%7C1a671e5a-32ba-4583-8f10-71adb91b3024&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.29-10.16.17:614][546]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.07.29-10.16.17:616][546]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.29-10.16.17:618][546]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.29-10.16.17:621][546]LogExit: Exiting.
+[2018.07.29-10.16.17:651][546]Log file closed, 07/29/18 11:16:17
