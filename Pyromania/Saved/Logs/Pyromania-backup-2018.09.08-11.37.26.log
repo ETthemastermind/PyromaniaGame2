@@ -1,0 +1,891 @@
+﻿Log file open, 09/03/18 22:21:35
+LogInit:Display: Running engine for game: Pyromania
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1400364595) SRandInit(1400364596).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.122767
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.03-21.21.36:166][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.03-21.21.36:166][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.03-21.21.36:200][  0]LogInit: Computer: DESKTOP-P0UCGMH
+[2018.09.03-21.21.36:200][  0]LogInit: User: ethan
+[2018.09.03-21.21.36:200][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.09.03-21.21.36:200][  0]LogInit: High frequency timer resolution =3.515626 MHz
+[2018.09.03-21.21.36:200][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.09.03-21.21.36:200][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.03-21.21.36:200][  0]LogMemory: Process Physical Memory: 273.01 MB used, 273.01 MB peak
+[2018.09.03-21.21.36:200][  0]LogMemory: Process Virtual Memory: 267.34 MB used, 267.34 MB peak
+[2018.09.03-21.21.36:200][  0]LogMemory: Physical Memory: 7342.31 MB used,  8993.97 MB free, 16336.28 MB total
+[2018.09.03-21.21.36:200][  0]LogMemory: Virtual Memory: 4783.46 MB used,  8993.97 MB free, 134217728.00 MB total
+[2018.09.03-21.21.36:278][  0]LogInit: Using OS detected language (en-US).
+[2018.09.03-21.21.36:278][  0]LogInit: Using OS detected locale (en-GB).
+[2018.09.03-21.21.36:281][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.03-21.21.37:232][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.03-21.21.37:259][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2018.09.03-21.21.37:259][  0]LogD3D11RHI:       3052/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.09.03-21.21.37:260][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.03-21.21.37:260][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.03-21.21.37:260][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.03-21.21.37:268][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.03-21.21.37:268][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2018.09.03-21.21.37:268][  0]LogWindows: EnumDisplayDevices:
+[2018.09.03-21.21.37:268][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2018.09.03-21.21.37:268][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:268][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:268][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:268][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    8. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    9. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    10. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    11. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    12. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:269][  0]LogWindows:    13. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:270][  0]LogWindows:    14. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:270][  0]LogWindows:    15. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.09.03-21.21.37:270][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.03-21.21.37:270][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2018.09.03-21.21.37:270][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.03-21.21.37:270][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.03-21.21.37:270][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.09.03-21.21.37:314][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.03-21.21.37:325][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.09.03-21.21.37:326][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (I:/Pyromania/Pyromania/Intermediate/Shaders/WorkingDirectory/15452/).
+[2018.09.03-21.21.37:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ethan/AppData/Local/Temp/UnrealShaderWorkingDir/613B67D148EE93DBAE6BC983756BA25A/'.
+[2018.09.03-21.21.37:326][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.09.03-21.21.38:296][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.03-21.21.38:356][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.09.03-21.21.38:415][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.03-21.21.38:474][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.09.03-21.21.38:535][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.09.03-21.21.38:593][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.03-21.21.38:652][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.03-21.21.38:711][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.03-21.21.38:763][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.09.03-21.21.38:820][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.09.03-21.21.38:877][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.03-21.21.38:934][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.03-21.21.38:991][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.03-21.21.39:048][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.03-21.21.39:104][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.03-21.21.39:222][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.03-21.21.39:222][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.03-21.21.39:268][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.09.03-21.21.39:373][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.09.03-21.21.39:408][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.09.03-21.21.39:466][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.03-21.21.39:523][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.03-21.21.39:582][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.03-21.21.39:639][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.09.03-21.21.39:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.09.03-21.21.40:224][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Pyromania/Pyromania/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Pyromania/Pyromania/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.03-21.21.40:307][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.03-21.21.40:325][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.03-21.21.40:338][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ethan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.03-21.21.40:348][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.03-21.21.40:348][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.03-21.21.40:349][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.03-21.21.40:349][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.03-21.21.40:694][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.03-21.21.40:776][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.03-21.21.40:935][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.03-21.21.40:995][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.03-21.21.41:061][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.03-21.21.41:061][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.09.03-21.21.41:061][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.09.03-21.21.41:645][  0]LogNetVersion: Pyromania , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1639439231)
+[2018.09.03-21.21.41:710][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.09.03-21.21.42:228][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.490194 seconds
+[2018.09.03-21.21.42:234][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.09.03-21.21.42:234][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.09.03-21.21.42:234][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.03-21.21.42:307][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.03-21.21.44:915][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.03-21.21.44:963][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.03-21.21.45:578][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.03-21.21.46:028][  0]SourceControl: Info Source control is disabled
+[2018.09.03-21.21.46:029][  0]SourceControl: Info Source control is disabled
+[2018.09.03-21.21.46:088][  0]SourceControl: Info Source control is disabled
+[2018.09.03-21.21.46:152][  0]SourceControl: Info Source control is disabled
+[2018.09.03-21.21.46:971][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.03-21.21.47:693][  0]LogEngine: Initializing Engine...
+[2018.09.03-21.21.47:713][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.03-21.21.47:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.03-21.21.47:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.03-21.21.48:034][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.03-21.21.48:046][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.21.48:083][  0]LogInit: FAudioDevice initialized.
+[2018.09.03-21.21.48:141][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/ethan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.09.03-21.21.48:156][  0]LogInit: Texture streaming: Enabled
+[2018.09.03-21.21.48:269][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.03-21.21.48:528][  0]LogInit: Transaction tracking system initialized
+[2018.09.03-21.21.48:894][  0]BlueprintLog: New page: Editor Load
+[2018.09.03-21.21.50:003][  0]LocalizationService: Info Localization service is disabled
+[2018.09.03-21.21.50:818][  0]LogConsoleResponse:Display: 
+[2018.09.03-21.21.51:030][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.03-21.21.51:030][  0]LogCook:Display: Mobile HDR setting 1
+[2018.09.03-21.21.51:429][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/' took 0.02s
+[2018.09.03-21.21.52:270][  0]SourceControl: Info Source control is disabled
+[2018.09.03-21.21.52:270][  0]Cmd: MAP LOAD FILE="I:/Pyromania/Pyromania/Content/Levels/HouseLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.03-21.21.52:270][  0]LightingResults: New page: Lighting Build
+[2018.09.03-21.21.52:319][  0]MapCheck: New page: Map Check
+[2018.09.03-21.21.52:319][  0]LightingResults: New page: Lighting Build
+[2018.09.03-21.22.01:048][  0]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.22.01:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.03-21.22.01:104][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.03-21.22.01:183][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.198ms to complete.
+[2018.09.03-21.22.01:183][  0]LogFileHelpers: Loading map 'HouseLevel' took 8.913
+[2018.09.03-21.22.01:618][  0]LogCollectionManager: Loaded 0 collections in 0.002120 seconds
+[2018.09.03-21.22.01:737][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Saved/Collections/' took 0.01s
+[2018.09.03-21.22.01:737][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/Developers/ethan/Collections/' took 0.01s
+[2018.09.03-21.22.01:737][  0]LogFileCache: Scanning file cache for directory 'I:/Pyromania/Pyromania/Content/Collections/' took 0.01s
+[2018.09.03-21.22.01:737][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.09.03-21.22.01:752][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2330 classes and 493 folders.
+[2018.09.03-21.22.01:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.03-21.22.02:304][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.03-21.22.02:332][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.09.03-21.22.02:352][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.03-21.22.02:354][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.03-21.22.02:370][  0]LogSlate: Took 0.006956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.03-21.22.02:526][  0]LogRenderer: Reallocating scene render targets to support 1312x504 NumSamples 1 (Frame:1).
+[2018.09.03-21.22.02:667][  0]LogSlate: Took 0.008069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-21.22.02:743][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.09.03-21.22.02:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.09.03-21.22.02:817][  0]LogLoad: (Engine Initialization) Total time: 29.37 seconds
+[2018.09.03-21.22.02:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2018.09.03-21.22.02:817][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.09.03-21.22.02:833][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.09.03-21.22.02:834][  0]LogOcInput: OculusInput pre-init called
+[2018.09.03-21.22.02:834][  0]LogHMD: Starting GearVRController plugin
+[2018.09.03-21.22.02:864][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.09.03-21.22.02:944][  1]LogAssetRegistry: Asset discovery search completed in 21.2551 seconds
+[2018.09.03-21.22.02:945][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.03-21.22.02:945][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2018.09.03-21.22.03:862][102]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-21.22.07:996][524]LogRenderer: Reallocating scene render targets to support 1312x508 NumSamples 1 (Frame:518).
+[2018.09.03-21.22.08:044][525]LogRenderer: Reallocating scene render targets to support 1312x524 NumSamples 1 (Frame:520).
+[2018.09.03-21.22.08:090][526]LogRenderer: Reallocating scene render targets to support 1312x556 NumSamples 1 (Frame:522).
+[2018.09.03-21.22.08:136][527]LogRenderer: Reallocating scene render targets to support 1312x592 NumSamples 1 (Frame:524).
+[2018.09.03-21.22.08:180][528]LogRenderer: Reallocating scene render targets to support 1312x628 NumSamples 1 (Frame:526).
+[2018.09.03-21.22.08:222][529]LogRenderer: Reallocating scene render targets to support 1312x652 NumSamples 1 (Frame:528).
+[2018.09.03-21.22.08:269][530]LogRenderer: Reallocating scene render targets to support 1312x668 NumSamples 1 (Frame:530).
+[2018.09.03-21.22.08:314][531]LogRenderer: Reallocating scene render targets to support 1312x684 NumSamples 1 (Frame:532).
+[2018.09.03-21.22.08:358][532]LogRenderer: Reallocating scene render targets to support 1312x696 NumSamples 1 (Frame:534).
+[2018.09.03-21.22.08:401][533]LogRenderer: Reallocating scene render targets to support 1312x716 NumSamples 1 (Frame:536).
+[2018.09.03-21.22.08:447][534]LogRenderer: Reallocating scene render targets to support 1312x724 NumSamples 1 (Frame:538).
+[2018.09.03-21.22.08:490][535]LogRenderer: Reallocating scene render targets to support 1312x728 NumSamples 1 (Frame:540).
+[2018.09.03-21.22.08:614][538]LogRenderer: Reallocating scene render targets to support 1312x732 NumSamples 1 (Frame:546).
+[2018.09.03-21.22.12:081][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairsTest2)
+[2018.09.03-21.22.38:114][194]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-21.22.38:131][194]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx)
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: Material, ItemCount : 1
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: Model, ItemCount : 26
+[2018.09.03-21.22.38:185][194]LogFbx: ItemName: Geometry, ItemCount : 26
+[2018.09.03-21.22.38:197][194]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx
+[2018.09.03-21.22.38:240][194]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.03-21.22.39:471][194]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx
+[2018.09.03-21.22.39:503][194]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.03-21.22.39:512][194]LogLinker: Can't find file '/Game/StaticMeshes/FanLight/lambert1'
+[2018.09.03-21.22.39:512][194]LogLinker: Can't find file '/Game/StaticMeshes/FanLight/lambert1'
+[2018.09.03-21.22.39:521][194]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.09.03-21.22.39:566][194]LogStaticMesh: Building static mesh TestLight_HousingUnit...
+[2018.09.03-21.22.39:579][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_HousingUnit.TestLight_HousingUnit
+[2018.09.03-21.22.39:582][194]LogStaticMesh:Warning: TestLight_HousingUnit has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.03-21.22.39:613][194]LogStaticMesh: Building static mesh TestLight_Blade2...
+[2018.09.03-21.22.39:617][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.39:681][194]LogStaticMesh: Built static mesh [0.07s] /Game/StaticMeshes/FanLight/TestLight_Blade2.TestLight_Blade2
+[2018.09.03-21.22.39:700][194]LogStaticMesh: Building static mesh TestLight_Screw3Backup...
+[2018.09.03-21.22.39:706][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw3Backup.TestLight_Screw3Backup
+[2018.09.03-21.22.39:725][194]LogStaticMesh: Building static mesh TestLight_Screw1...
+[2018.09.03-21.22.39:731][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1
+[2018.09.03-21.22.39:748][194]LogStaticMesh: Building static mesh TestLight_Screw2...
+[2018.09.03-21.22.39:753][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw2.TestLight_Screw2
+[2018.09.03-21.22.39:768][194]LogStaticMesh: Building static mesh TestLight_Screw4...
+[2018.09.03-21.22.39:774][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw4.TestLight_Screw4
+[2018.09.03-21.22.39:788][194]LogStaticMesh: Building static mesh TestLight_Screw5...
+[2018.09.03-21.22.39:794][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw5.TestLight_Screw5
+[2018.09.03-21.22.39:808][194]LogStaticMesh: Building static mesh TestLight_Screw6...
+[2018.09.03-21.22.39:814][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6
+[2018.09.03-21.22.39:825][194]LogStaticMesh: Building static mesh TestLight_Screw7...
+[2018.09.03-21.22.39:831][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7
+[2018.09.03-21.22.39:841][194]LogStaticMesh: Building static mesh TestLight_Screw8...
+[2018.09.03-21.22.39:847][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw8.TestLight_Screw8
+[2018.09.03-21.22.39:860][194]LogStaticMesh: Building static mesh TestLight_Screw9...
+[2018.09.03-21.22.39:866][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9
+[2018.09.03-21.22.39:883][194]LogStaticMesh: Building static mesh TestLight_Screw10...
+[2018.09.03-21.22.39:890][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw10.TestLight_Screw10
+[2018.09.03-21.22.39:900][194]LogStaticMesh: Building static mesh TestLight_Screw11...
+[2018.09.03-21.22.39:905][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11
+[2018.09.03-21.22.39:919][194]LogStaticMesh: Building static mesh TestLight_Screw12...
+[2018.09.03-21.22.39:925][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12
+[2018.09.03-21.22.39:936][194]LogStaticMesh: Building static mesh TestLight_Screw13...
+[2018.09.03-21.22.39:943][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw13.TestLight_Screw13
+[2018.09.03-21.22.39:957][194]LogStaticMesh: Building static mesh TestLight_Screw14...
+[2018.09.03-21.22.39:963][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14
+[2018.09.03-21.22.39:975][194]LogStaticMesh: Building static mesh TestLight_Screw15...
+[2018.09.03-21.22.39:981][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_Screw15.TestLight_Screw15
+[2018.09.03-21.22.39:998][194]LogStaticMesh: Building static mesh TestLight_Blade3...
+[2018.09.03-21.22.40:002][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.40:197][194]LogStaticMesh: Built static mesh [0.20s] /Game/StaticMeshes/FanLight/TestLight_Blade3.TestLight_Blade3
+[2018.09.03-21.22.40:201][194]LogStaticMesh:Warning: TestLight_Blade3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.03-21.22.40:218][194]LogStaticMesh: Building static mesh TestLight_Blade4...
+[2018.09.03-21.22.40:221][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.40:415][194]LogStaticMesh: Built static mesh [0.20s] /Game/StaticMeshes/FanLight/TestLight_Blade4.TestLight_Blade4
+[2018.09.03-21.22.40:416][194]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.03-21.22.40:437][194]LogStaticMesh: Building static mesh TestLight_Blade5...
+[2018.09.03-21.22.40:440][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.40:649][194]LogStaticMesh: Built static mesh [0.21s] /Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5
+[2018.09.03-21.22.40:669][194]LogStaticMesh: Building static mesh TestLight_Blade6...
+[2018.09.03-21.22.40:673][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.40:873][194]LogStaticMesh: Built static mesh [0.20s] /Game/StaticMeshes/FanLight/TestLight_Blade6.TestLight_Blade6
+[2018.09.03-21.22.40:877][194]LogStaticMesh:Warning: TestLight_Blade6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.03-21.22.40:893][194]LogStaticMesh: Building static mesh TestLight_Blade7...
+[2018.09.03-21.22.40:896][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.41:093][194]LogStaticMesh: Built static mesh [0.20s] /Game/StaticMeshes/FanLight/TestLight_Blade7.TestLight_Blade7
+[2018.09.03-21.22.41:097][194]LogStaticMesh:Warning: TestLight_Blade7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.03-21.22.41:118][194]LogStaticMesh: Building static mesh TestLight_Blade8...
+[2018.09.03-21.22.41:125][194]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.22.41:303][194]LogStaticMesh: Built static mesh [0.19s] /Game/StaticMeshes/FanLight/TestLight_Blade8.TestLight_Blade8
+[2018.09.03-21.22.41:320][194]LogStaticMesh: Building static mesh TestLight_LightBase...
+[2018.09.03-21.22.41:323][194]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/FanLight/TestLight_LightBase.TestLight_LightBase
+[2018.09.03-21.22.41:339][194]LogStaticMesh: Building static mesh TestLight_HousingBase1...
+[2018.09.03-21.22.41:351][194]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/FanLight/TestLight_HousingBase1.TestLight_HousingBase1
+[2018.09.03-21.22.41:367][194]LogStaticMesh: Building static mesh TestLight_pSphere1...
+[2018.09.03-21.22.41:370][194]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/FanLight/TestLight_pSphere1.TestLight_pSphere1
+[2018.09.03-21.22.41:389][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning TestLight_HousingUnit has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning TestLight_Blade3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning TestLight_Blade6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning TestLight_Blade7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.41:390][194]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.09.03-21.22.54:417][412]LogActorFactory: Actor Factory created TestLight_Blade2
+[2018.09.03-21.22.54:419][412]LogActorFactory: Actor Factory created TestLight_Blade3
+[2018.09.03-21.22.54:420][412]LogActorFactory: Actor Factory created TestLight_Blade4
+[2018.09.03-21.22.54:420][412]LogActorFactory: Actor Factory created TestLight_Blade5
+[2018.09.03-21.22.54:421][412]LogActorFactory: Actor Factory created TestLight_Blade6
+[2018.09.03-21.22.54:421][412]LogActorFactory: Actor Factory created TestLight_Blade7
+[2018.09.03-21.22.54:422][412]LogActorFactory: Actor Factory created TestLight_Blade8
+[2018.09.03-21.22.54:422][412]LogActorFactory: Actor Factory created TestLight_HousingBase1
+[2018.09.03-21.22.54:423][412]LogActorFactory: Actor Factory created TestLight_HousingUnit
+[2018.09.03-21.22.54:424][412]LogActorFactory: Actor Factory created TestLight_LightBase
+[2018.09.03-21.22.54:424][412]LogActorFactory: Actor Factory created TestLight_pSphere1
+[2018.09.03-21.22.54:425][412]LogActorFactory: Actor Factory created TestLight_Screw1
+[2018.09.03-21.22.54:425][412]LogActorFactory: Actor Factory created TestLight_Screw10
+[2018.09.03-21.22.54:426][412]LogActorFactory: Actor Factory created TestLight_Screw11
+[2018.09.03-21.22.54:426][412]LogActorFactory: Actor Factory created TestLight_Screw12
+[2018.09.03-21.22.54:427][412]LogActorFactory: Actor Factory created TestLight_Screw13
+[2018.09.03-21.22.54:427][412]LogActorFactory: Actor Factory created TestLight_Screw14
+[2018.09.03-21.22.54:428][412]LogActorFactory: Actor Factory created TestLight_Screw15
+[2018.09.03-21.22.54:428][412]LogActorFactory: Actor Factory created TestLight_Screw2
+[2018.09.03-21.22.54:429][412]LogActorFactory: Actor Factory created TestLight_Screw3Backup
+[2018.09.03-21.22.54:429][412]LogActorFactory: Actor Factory created TestLight_Screw4
+[2018.09.03-21.22.54:430][412]LogActorFactory: Actor Factory created TestLight_Screw5
+[2018.09.03-21.22.54:431][412]LogActorFactory: Actor Factory created TestLight_Screw6
+[2018.09.03-21.22.54:431][412]LogActorFactory: Actor Factory created TestLight_Screw7
+[2018.09.03-21.22.54:432][412]LogActorFactory: Actor Factory created TestLight_Screw8
+[2018.09.03-21.22.54:432][412]LogActorFactory: Actor Factory created TestLight_Screw9
+[2018.09.03-21.22.54:898][444]LogActorFactory: Actor Factory created TestLight_Blade2
+[2018.09.03-21.22.54:919][444]LogActorFactory: Actor Factory created TestLight_Blade3
+[2018.09.03-21.22.54:937][444]LogActorFactory: Actor Factory created TestLight_Blade4
+[2018.09.03-21.22.54:957][444]LogActorFactory: Actor Factory created TestLight_Blade5
+[2018.09.03-21.22.54:978][444]LogActorFactory: Actor Factory created TestLight_Blade6
+[2018.09.03-21.22.54:998][444]LogActorFactory: Actor Factory created TestLight_Blade7
+[2018.09.03-21.22.55:018][444]LogActorFactory: Actor Factory created TestLight_Blade8
+[2018.09.03-21.22.55:038][444]LogActorFactory: Actor Factory created TestLight_HousingBase1
+[2018.09.03-21.22.55:057][444]LogActorFactory: Actor Factory created TestLight_HousingUnit
+[2018.09.03-21.22.55:077][444]LogActorFactory: Actor Factory created TestLight_LightBase
+[2018.09.03-21.22.55:097][444]LogActorFactory: Actor Factory created TestLight_pSphere1
+[2018.09.03-21.22.55:118][444]LogActorFactory: Actor Factory created TestLight_Screw1
+[2018.09.03-21.22.55:138][444]LogActorFactory: Actor Factory created TestLight_Screw10
+[2018.09.03-21.22.55:157][444]LogActorFactory: Actor Factory created TestLight_Screw11
+[2018.09.03-21.22.55:177][444]LogActorFactory: Actor Factory created TestLight_Screw12
+[2018.09.03-21.22.55:196][444]LogActorFactory: Actor Factory created TestLight_Screw13
+[2018.09.03-21.22.55:216][444]LogActorFactory: Actor Factory created TestLight_Screw14
+[2018.09.03-21.22.55:236][444]LogActorFactory: Actor Factory created TestLight_Screw15
+[2018.09.03-21.22.55:256][444]LogActorFactory: Actor Factory created TestLight_Screw2
+[2018.09.03-21.22.55:276][444]LogActorFactory: Actor Factory created TestLight_Screw3Backup
+[2018.09.03-21.22.55:296][444]LogActorFactory: Actor Factory created TestLight_Screw4
+[2018.09.03-21.22.55:316][444]LogActorFactory: Actor Factory created TestLight_Screw5
+[2018.09.03-21.22.55:336][444]LogActorFactory: Actor Factory created TestLight_Screw6
+[2018.09.03-21.22.55:355][444]LogActorFactory: Actor Factory created TestLight_Screw7
+[2018.09.03-21.22.55:375][444]LogActorFactory: Actor Factory created TestLight_Screw8
+[2018.09.03-21.22.55:394][444]LogActorFactory: Actor Factory created TestLight_Screw9
+[2018.09.03-21.23.27:178][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw9_77.StaticMeshComponent0 TestLight_Screw9 
+[2018.09.03-21.23.27:178][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade2_27.StaticMeshComponent0 TestLight_Blade2 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade3_29.StaticMeshComponent0 TestLight_Blade3 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade4_31.StaticMeshComponent0 TestLight_Blade4 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade5_33.StaticMeshComponent0 TestLight_Blade5 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade6_35.StaticMeshComponent0 TestLight_Blade6 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade7_37.StaticMeshComponent0 TestLight_Blade7 
+[2018.09.03-21.23.27:179][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Blade8_39.StaticMeshComponent0 TestLight_Blade8 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_HousingBase1_41.StaticMeshComponent0 TestLight_HousingBase1 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_HousingUnit_43.StaticMeshComponent0 TestLight_HousingUnit 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_LightBase_45.StaticMeshComponent0 TestLight_LightBase 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_pSphere1_47.StaticMeshComponent0 TestLight_pSphere1 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw1_49.StaticMeshComponent0 TestLight_Screw1 
+[2018.09.03-21.23.27:180][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw10_51.StaticMeshComponent0 TestLight_Screw10 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw11_53.StaticMeshComponent0 TestLight_Screw11 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw12_55.StaticMeshComponent0 TestLight_Screw12 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw13_57.StaticMeshComponent0 TestLight_Screw13 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw14_59.StaticMeshComponent0 TestLight_Screw14 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw15_61.StaticMeshComponent0 TestLight_Screw15 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw2_63.StaticMeshComponent0 TestLight_Screw2 
+[2018.09.03-21.23.27:181][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw3Backup_65.StaticMeshComponent0 TestLight_Screw3Backup 
+[2018.09.03-21.23.27:182][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw4_67.StaticMeshComponent0 TestLight_Screw4 
+[2018.09.03-21.23.27:182][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw5_69.StaticMeshComponent0 TestLight_Screw5 
+[2018.09.03-21.23.27:182][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw6_71.StaticMeshComponent0 TestLight_Screw6 
+[2018.09.03-21.23.27:182][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw7_73.StaticMeshComponent0 TestLight_Screw7 
+[2018.09.03-21.23.27:182][853]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: TestLight_Screw8_75.StaticMeshComponent0 TestLight_Screw8 
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[0] invalid
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[1] invalid
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade2.TestLight_Blade2] ScaledElem[0] invalid
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:199][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade3.TestLight_Blade3] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade4.TestLight_Blade4] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[1] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade6.TestLight_Blade6] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade7.TestLight_Blade7] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade8.TestLight_Blade8] ScaledElem[0] invalid
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:200][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingBase1.TestLight_HousingBase1] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingUnit.TestLight_HousingUnit] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_LightBase.TestLight_LightBase] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_pSphere1.TestLight_pSphere1] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[1] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw10.TestLight_Screw10] ScaledElem[0] invalid
+[2018.09.03-21.23.29:201][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[0] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[1] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[0] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[1] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw13.TestLight_Screw13] ScaledElem[0] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[0] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[1] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw15.TestLight_Screw15] ScaledElem[0] invalid
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:202][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw2.TestLight_Screw2] ScaledElem[0] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw3Backup.TestLight_Screw3Backup] ScaledElem[0] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw5.TestLight_Screw5] ScaledElem[0] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[0] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[1] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[2] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[0] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[1] invalid
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.29:203][ 77]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw8.TestLight_Screw8] ScaledElem[0] invalid
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[0] invalid
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[1] invalid
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[0] invalid
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:628][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw9.TestLight_Screw9] ScaledElem[1] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade2.TestLight_Blade2] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade2.TestLight_Blade2] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade3.TestLight_Blade3] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade3.TestLight_Blade3] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade4.TestLight_Blade4] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade4.TestLight_Blade4] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[1] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[0] invalid
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:629][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade5.TestLight_Blade5] ScaledElem[1] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade6.TestLight_Blade6] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade6.TestLight_Blade6] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade7.TestLight_Blade7] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade7.TestLight_Blade7] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade8.TestLight_Blade8] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Blade8.TestLight_Blade8] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingBase1.TestLight_HousingBase1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:630][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingBase1.TestLight_HousingBase1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingUnit.TestLight_HousingUnit] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_HousingUnit.TestLight_HousingUnit] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_LightBase.TestLight_LightBase] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_LightBase.TestLight_LightBase] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_pSphere1.TestLight_pSphere1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_pSphere1.TestLight_pSphere1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[1] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[0] invalid
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:631][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw1.TestLight_Screw1] ScaledElem[1] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw10.TestLight_Screw10] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw10.TestLight_Screw10] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[1] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw11.TestLight_Screw11] ScaledElem[1] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[1] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw12.TestLight_Screw12] ScaledElem[1] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw13.TestLight_Screw13] ScaledElem[0] invalid
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:632][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw13.TestLight_Screw13] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[1] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw14.TestLight_Screw14] ScaledElem[1] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw15.TestLight_Screw15] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw15.TestLight_Screw15] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw2.TestLight_Screw2] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw2.TestLight_Screw2] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw3Backup.TestLight_Screw3Backup] ScaledElem[0] invalid
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:633][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw3Backup.TestLight_Screw3Backup] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw5.TestLight_Screw5] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw5.TestLight_Screw5] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[1] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[2] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[1] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw6.TestLight_Screw6] ScaledElem[2] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[0] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[1] invalid
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:634][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[0] invalid
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw7.TestLight_Screw7] ScaledElem[1] invalid
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw8.TestLight_Screw8] ScaledElem[0] invalid
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.03-21.23.42:635][510]LogPhysics:Warning: ForeachShape(Convex): [/Game/StaticMeshes/FanLight/TestLight_Screw8.TestLight_Screw8] ScaledElem[0] invalid
+[2018.09.03-21.23.58:932][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TestLight_Blade3)
+[2018.09.03-21.24.02:675][600]Cmd: TRANSACTION UNDO
+[2018.09.03-21.24.02:675][600]LogEditorTransaction: Undo Move Actors
+[2018.09.03-21.24.02:678][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.TestLight_HousingUnit_43.StaticMeshComponent0) Component already registered.
+[2018.09.03-21.24.02:679][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.TestLight_Blade3_29.StaticMeshComponent0) Component already registered.
+[2018.09.03-21.24.02:679][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.TestLight_Screw1_49.StaticMeshComponent0) Component already registered.
+[2018.09.03-21.24.02:680][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.TestLight_Screw7_73.StaticMeshComponent0) Component already registered.
+[2018.09.03-21.24.02:681][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.GroupActor_2.GroupComponent) Component already registered.
+[2018.09.03-21.24.02:681][600]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.TestLight_Screw14_59.StaticMeshComponent0) Component already registered.
+[2018.09.03-21.24.03:407][674]LogEditorViewport: Clicking on Actor (LMB): Brush (EntryRoomEastWall)
+[2018.09.03-21.24.04:312][775]LogEditorViewport: Clicking on Actor (LMB): FemaleFireCharcter_C (FemaleFireCharcter)
+[2018.09.03-21.24.05:297][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TestLight_Blade7)
+[2018.09.03-21.24.18:558][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2018.09.03-21.24.19:328][258]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.24.19:559][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.19:559][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.24.19:562][258]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:24:19)
+[2018.09.03-21.24.19:562][258]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.24.19:588][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026024s)
+[2018.09.03-21.24.19:588][258]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.24.19:589][258]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.09.03-21.24.19:589][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.027000s)
+[2018.09.03-21.24.19:604][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.24.19:619][258]LogInit: FAudioDevice initialized.
+[2018.09.03-21.24.19:691][258]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.24.19:700][258]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.24.19
+[2018.09.03-21.24.19:706][258]LogWorld: Bringing up level for play took: 0.012599
+[2018.09.03-21.24.19:760][258]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.09.03-21.24.19:761][258]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel 0.66
+[2018.09.03-21.24.19:761][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.22:888][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.22:939][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.24:957][835]LogEditorViewport: Clicking on Actor (LMB): FemaleFireCharcter_C (FemaleFireCharcter)
+[2018.09.03-21.24.28:529][109]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.24.28:559][109]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.28:559][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.24.28:559][109]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:24:28)
+[2018.09.03-21.24.28:559][109]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.24.28:583][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023572s)
+[2018.09.03-21.24.28:583][109]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.24.28:584][109]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2018.09.03-21.24.28:584][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024519s)
+[2018.09.03-21.24.28:624][109]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.24.28:639][109]LogInit: FAudioDevice initialized.
+[2018.09.03-21.24.28:670][109]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.24.28:679][109]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.24.28
+[2018.09.03-21.24.28:680][109]LogWorld: Bringing up level for play took: 0.008528
+[2018.09.03-21.24.28:681][109]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.42
+[2018.09.03-21.24.28:682][109]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.32:497][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.32:568][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.33:150][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TestLight_pSphere1)
+[2018.09.03-21.24.52:345][213]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.24.52:368][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.24.52:368][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.24.52:368][213]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:24:52)
+[2018.09.03-21.24.52:368][213]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.24.52:391][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023090s)
+[2018.09.03-21.24.52:392][213]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.24.52:392][213]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.09.03-21.24.52:392][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024056s)
+[2018.09.03-21.24.52:407][213]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.24.52:422][213]LogInit: FAudioDevice initialized.
+[2018.09.03-21.24.52:452][213]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.24.52:462][213]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.24.52
+[2018.09.03-21.24.52:463][213]LogWorld: Bringing up level for play took: 0.009711
+[2018.09.03-21.24.52:465][213]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.637
+[2018.09.03-21.24.52:465][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.00:060][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.00:116][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.05:134][607]LogEditorViewport: Clicking on Actor (LMB): FemaleFireCharcter_C (FemaleFireCharcter)
+[2018.09.03-21.25.12:628][226]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.25.12:658][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.12:658][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.25.12:658][226]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:25:12)
+[2018.09.03-21.25.12:658][226]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.25.12:681][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023436s)
+[2018.09.03-21.25.12:682][226]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.25.12:682][226]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.09.03-21.25.12:682][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024386s)
+[2018.09.03-21.25.12:727][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.25.12:741][226]LogInit: FAudioDevice initialized.
+[2018.09.03-21.25.12:773][226]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.25.12:781][226]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.25.12
+[2018.09.03-21.25.12:782][226]LogWorld: Bringing up level for play took: 0.007965
+[2018.09.03-21.25.12:783][226]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.318
+[2018.09.03-21.25.12:783][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.16:600][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.16:672][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.25.48:840][264]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_13' or package '/Engine/Transient'.
+[2018.09.03-21.26.16:726][630]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx)
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: NodeAttribute, ItemCount : 50
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: Model, ItemCount : 51
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: Material, ItemCount : 1
+[2018.09.03-21.26.16:732][630]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.09.03-21.26.16:737][630]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx
+[2018.09.03-21.26.16:769][630]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.03-21.26.18:505][630]LogFbx: Loading FBX Scene from I:/Pyromania/StaticMeshes/Celeing Light/TestLight.fbx
+[2018.09.03-21.26.18:537][630]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.03-21.26.18:544][630]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.09.03-21.26.18:599][630]LogStaticMesh: Building static mesh TestLight...
+[2018.09.03-21.26.18:635][630]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.09.03-21.26.20:554][630]LogStaticMesh: Built static mesh [1.96s] /Game/StaticMeshes/FanLight/TestLight.TestLight
+[2018.09.03-21.26.20:574][630]LogStaticMesh:Warning: TestLight has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.03-21.26.20:605][630]FBXImport:Warning: Warning TestLight has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.03-21.26.35:688][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/FanLight/TestLight" FILE="I:/Pyromania/Pyromania/Content/StaticMeshes/FanLight/TestLight.uasset" SILENT=true
+[2018.09.03-21.26.35:790][561]LogSavePackage: Save=98.29ms
+[2018.09.03-21.26.35:790][561]LogSavePackage: Moving 'I:/Pyromania/Pyromania/Saved/TestLightFA56D8B642A496B0C0AEC0A1A6433E89.tmp' to 'I:/Pyromania/Pyromania/Content/StaticMeshes/FanLight/TestLight.uasset'
+[2018.09.03-21.26.35:794][561]LogSavePackage:Display: Finished SavePackage I:/Pyromania/Pyromania/Content/StaticMeshes/FanLight/TestLight.uasset
+[2018.09.03-21.26.38:556][750]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.26.38:584][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.26.38:584][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.26.38:584][750]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:26:38)
+[2018.09.03-21.26.38:584][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.26.38:607][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023111s)
+[2018.09.03-21.26.38:608][750]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.26.38:608][750]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2018.09.03-21.26.38:608][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024065s)
+[2018.09.03-21.26.38:651][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.26.38:665][750]LogInit: FAudioDevice initialized.
+[2018.09.03-21.26.38:695][750]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.26.38:702][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.26.38
+[2018.09.03-21.26.38:703][750]LogWorld: Bringing up level for play took: 0.007035
+[2018.09.03-21.26.38:704][750]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.397
+[2018.09.03-21.26.38:705][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.26.53:565][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.26.53:637][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.26.57:049][845]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.26.57:081][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.26.57:081][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.26.57:081][845]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:26:57)
+[2018.09.03-21.26.57:081][845]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.26.57:104][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023087s)
+[2018.09.03-21.26.57:104][845]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.26.57:105][845]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.09.03-21.26.57:105][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024011s)
+[2018.09.03-21.26.57:149][845]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.26.57:163][845]LogInit: FAudioDevice initialized.
+[2018.09.03-21.26.57:195][845]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.26.57:202][845]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.26.57
+[2018.09.03-21.26.57:203][845]LogWorld: Bringing up level for play took: 0.006969
+[2018.09.03-21.26.57:204][845]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel 0.103
+[2018.09.03-21.26.57:204][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.27.02:976][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.27.03:045][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.27.03:797][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairsTest2)
+[2018.09.03-21.27.12:991][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairsTest2)
+[2018.09.03-21.27.26:746][840]LogActorFactory: Actor Factory created TestLight
+[2018.09.03-21.27.27:397][893]LogActorFactory: Actor Factory created TestLight
+[2018.09.03-21.27.43:621][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairsTest2)
+[2018.09.03-21.27.43:878][603]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.09.03-21.27.45:863][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TestLight)
+[2018.09.03-21.27.57:006][993]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.27.57:037][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.27.57:037][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.27.57:038][993]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:27:57)
+[2018.09.03-21.27.57:038][993]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.27.57:061][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023799s)
+[2018.09.03-21.27.57:062][993]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.27.57:062][993]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.09.03-21.27.57:062][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024789s)
+[2018.09.03-21.27.57:078][993]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.27.57:092][993]LogInit: FAudioDevice initialized.
+[2018.09.03-21.27.57:120][993]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.27.57:128][993]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.27.57
+[2018.09.03-21.27.57:129][993]LogWorld: Bringing up level for play took: 0.007229
+[2018.09.03-21.27.57:130][993]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel 0.029
+[2018.09.03-21.27.57:130][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.01:619][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.01:673][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.05:311][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TestLight)
+[2018.09.03-21.28.13:635][872]LogEditorViewport: Clicking Background
+[2018.09.03-21.28.14:219][940]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.28.14:242][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.14:242][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.28.14:242][940]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:28:14)
+[2018.09.03-21.28.14:242][940]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.28.14:265][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023069s)
+[2018.09.03-21.28.14:266][940]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.28.14:266][940]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.09.03-21.28.14:266][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024088s)
+[2018.09.03-21.28.14:279][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.28.14:293][940]LogInit: FAudioDevice initialized.
+[2018.09.03-21.28.14:324][940]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.28.14:332][940]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.28.14
+[2018.09.03-21.28.14:333][940]LogWorld: Bringing up level for play took: 0.007114
+[2018.09.03-21.28.14:334][940]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.767
+[2018.09.03-21.28.14:334][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.20:370][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.20:402][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.42:262][974]LogTemp: Repeting last play command: Selected Viewport
+[2018.09.03-21.28.42:581][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.42:581][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.03-21.28.42:581][974]PIE: New page: PIE session: HouseLevel (3 Sep 2018 23:28:42)
+[2018.09.03-21.28.42:581][974]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_HouseLevel
+[2018.09.03-21.28.42:605][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023220s)
+[2018.09.03-21.28.42:605][974]LogAIModule: Creating AISystem for world HouseLevel
+[2018.09.03-21.28.42:605][974]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.09.03-21.28.42:606][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/HouseLevel.HouseLevel to /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel (0.024184s)
+[2018.09.03-21.28.42:619][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-21.28.42:633][974]LogInit: FAudioDevice initialized.
+[2018.09.03-21.28.42:669][974]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.03-21.28.42:677][974]LogWorld: Bringing World /Game/Levels/UEDPIE_0_HouseLevel.HouseLevel up for play (max tick rate 0) at 2018.09.03-22.28.42
+[2018.09.03-21.28.42:678][974]LogWorld: Bringing up level for play took: 0.007037
+[2018.09.03-21.28.42:679][974]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_HouseLevel -0.422
+[2018.09.03-21.28.42:679][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.52:491][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.52:525][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel' with GeneratedClass '/Game/Levels/HouseLevel.HouseLevel_C' with ClassGeneratedBy '/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.HouseLevel'
+[2018.09.03-21.28.53:834][303]MapCheck: New page: Map Check
+[2018.09.03-21.28.53:845][303]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.03-21.28.53:845][303]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.03-21.28.54:063][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.03-21.28.54:069][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_25, compiling. 
+[2018.09.03-21.28.54:076][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LivingRoomCarpet, compiling. 
+[2018.09.03-21.28.54:082][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LivingRoomWall, compiling. 
+[2018.09.03-21.28.54:088][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FemaleFireTexture, compiling. 
+[2018.09.03-21.28.54:095][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blinn13, compiling. 
+[2018.09.03-21.28.54:100][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_29, compiling. 
+[2018.09.03-21.28.54:109][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Frame, compiling. 
+[2018.09.03-21.28.54:115][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture1Mat, compiling. 
+[2018.09.03-21.28.54:122][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture2Mat, compiling. 
+[2018.09.03-21.28.54:128][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture3Mat, compiling. 
+[2018.09.03-21.28.54:134][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture4Mat, compiling. 
+[2018.09.03-21.28.54:140][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture5Mat, compiling. 
+[2018.09.03-21.28.54:146][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture6Mat, compiling. 
+[2018.09.03-21.28.54:153][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture7Mat, compiling. 
+[2018.09.03-21.28.54:160][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture8Mat, compiling. 
+[2018.09.03-21.28.54:168][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Picture9Mat, compiling. 
+[2018.09.03-21.28.54:177][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TvScreen, compiling. 
+[2018.09.03-21.28.54:186][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TvPlastics, compiling. 
+[2018.09.03-21.28.54:192][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.03-21.28.54:199][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.09.03-21.28.54:206][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BodyMat, compiling. 
+[2018.09.03-21.28.54:213][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BottomsMat, compiling. 
+[2018.09.03-21.28.54:219][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EyelashesMat, compiling. 
+[2018.09.03-21.28.54:225][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EyesMat, compiling. 
+[2018.09.03-21.28.54:230][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HairMat, compiling. 
+[2018.09.03-21.28.54:236][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ShoesMat, compiling. 
+[2018.09.03-21.28.54:241][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TopsMat, compiling. 
+[2018.09.03-21.28.54:247][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BottomsMat, compiling. 
+[2018.09.03-21.28.54:254][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EyelashesMat, compiling. 
+[2018.09.03-21.28.54:259][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EyesMat, compiling. 
+[2018.09.03-21.28.54:264][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HatsMat, compiling. 
+[2018.09.03-21.28.54:270][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ShoesMat, compiling. 
+[2018.09.03-21.28.54:276][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TopsMat, compiling. 
+[2018.09.03-21.28.54:282][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BodyMat, compiling. 
+[2018.09.03-21.28.54:289][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FemaleWaterMaat, compiling. 
+[2018.09.03-21.28.54:294][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SofaCushion, compiling. 
+[2018.09.03-21.28.54:299][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pillow1, compiling. 
+[2018.09.03-21.28.54:307][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SofaBody1, compiling. 
+[2018.09.03-21.28.54:312][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SofaFeet, compiling. 
+[2018.09.03-21.28.54:317][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_SubUV, compiling. 
+[2018.09.03-21.28.54:324][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2018.09.03-21.28.54:331][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Radial_Gradient, compiling. 
+[2018.09.03-21.28.54:337][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Heat_Distortion, compiling. 
+[2018.09.03-21.28.54:345][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.09.03-21.28.54:355][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Stairs, compiling. 
+[2018.09.03-21.28.54:361][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.09.03-21.28.54:368][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.03-21.28.54:375][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.09.03-21.28.55:720][303]TextureStreamingBuild:Display: Compiling optional shaders took 1.663 seconds.
+[2018.09.03-21.28.55:760][303]LogLevel:Display: Export Material TexCoord Scales took 0.040 seconds.
+[2018.09.03-21.28.55:787][303]TextureStreamingBuild:Display: Build Texture Streaming took 0.027 seconds.
+[2018.09.03-21.28.55:796][303]LightingResults: New page: Lighting Build - 3 Sep 2018 23:28:55
+[2018.09.03-21.28.55:864][303]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.03-21.28.55:940][303]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.03-21.28.55:971][303]LogSwarmInterface: [TryOpenConnection] Testing the Agent
